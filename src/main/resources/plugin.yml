@@ -1,0 +1,24 @@
+name: Hardcore
+version: '1.0-SNAPSHOT'
+main: io.github.mikeandjoski.hardcore.Hardcore
+api-version: '1.21'
+author: MikeandJoski
+commands:
+  stats:
+    description: Opens the stats GUI.
+    usage: /stats
+  home:
+    description: Opens the home GUI.
+    usage: /home
+  tpa:
+    description: Sends a teleport request to another player.
+    usage: /tpa
+  tpac:
+    description: Accepts a teleport request.
+    usage: /tpac
+  tpaccept:
+    description: Accepts a teleport request.
+    usage: /tpaccept
+  tpdeny:
+    description: Denies a teleport request.
+    usage: /tpdeny

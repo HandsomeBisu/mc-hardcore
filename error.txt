@@ -1,0 +1,87 @@
+오후 4:46:44: Executing 'build'…
+
+
+> Task :compileJava FAILED
+C:\Users\MikeandJoski\Desktop\Hardcore\src\main\java\io\github\mikeandjoski\hardcore\GUIListener.java:11: error: cannot find symbol
+import io.github.mikeandjoski.hardcore.StatEffectManager;
+                                      ^
+  symbol:   class StatEffectManager
+  location: package io.github.mikeandjoski.hardcore
+C:\Users\MikeandJoski\Desktop\Hardcore\src\main\java\io\github\mikeandjoski\hardcore\Hardcore.java:10: error: cannot find symbol
+import io.github.mikeandjoski.hardcore.StatEffectManager;
+                                      ^
+  symbol:   class StatEffectManager
+  location: package io.github.mikeandjoski.hardcore
+C:\Users\MikeandJoski\Desktop\Hardcore\src\main\java\io\github\mikeandjoski\hardcore\GUIListener.java:96: error: cannot find symbol
+            StatEffectManager.applyStats(player, stats);
+            ^
+  symbol:   variable StatEffectManager
+  location: class GUIListener
+C:\Users\MikeandJoski\Desktop\Hardcore\src\main\java\io\github\mikeandjoski\hardcore\PlayerStats.java:13: error: cannot find symbol
+        this.healthLevel = 1;
+            ^
+  symbol: variable healthLevel
+C:\Users\MikeandJoski\Desktop\Hardcore\src\main\java\io\github\mikeandjoski\hardcore\PlayerStats.java:14: error: cannot find symbol
+        this.staminaLevel = 1;
+            ^
+  symbol: variable staminaLevel
+C:\Users\MikeandJoski\Desktop\Hardcore\src\main\java\io\github\mikeandjoski\hardcore\PlayerStats.java:23: error: cannot find symbol
+        this.healthLevel = config.getInt("healthLevel", 1);
+            ^
+  symbol: variable healthLevel
+C:\Users\MikeandJoski\Desktop\Hardcore\src\main\java\io\github\mikeandjoski\hardcore\PlayerStats.java:24: error: cannot find symbol
+        this.staminaLevel = config.getInt("staminaLevel", 1);
+            ^
+  symbol: variable staminaLevel
+C:\Users\MikeandJoski\Desktop\Hardcore\src\main\java\io\github\mikeandjoski\hardcore\PlayerStats.java:33: error: cannot find symbol
+        config.set("healthLevel", healthLevel);
+                                  ^
+  symbol:   variable healthLevel
+  location: class PlayerStats
+C:\Users\MikeandJoski\Desktop\Hardcore\src\main\java\io\github\mikeandjoski\hardcore\PlayerStats.java:34: error: cannot find symbol
+        config.set("staminaLevel", staminaLevel);
+                                   ^
+  symbol:   variable staminaLevel
+  location: class PlayerStats
+C:\Users\MikeandJoski\Desktop\Hardcore\src\main\java\io\github\mikeandjoski\hardcore\PlayerStats.java:42: error: cannot find symbol
+        return 100.0 + (this.staminaLevel - 1) * 30.0;
+                            ^
+  symbol: variable staminaLevel
+C:\Users\MikeandJoski\Desktop\Hardcore\src\main\java\io\github\mikeandjoski\hardcore\PlayerStats.java:63: error: cannot find symbol
+        return healthLevel;
+               ^
+  symbol:   variable healthLevel
+  location: class PlayerStats
+C:\Users\MikeandJoski\Desktop\Hardcore\src\main\java\io\github\mikeandjoski\hardcore\PlayerStats.java:67: error: cannot find symbol
+        this.healthLevel = healthLevel;
+            ^
+  symbol: variable healthLevel
+C:\Users\MikeandJoski\Desktop\Hardcore\src\main\java\io\github\mikeandjoski\hardcore\PlayerStats.java:71: error: cannot find symbol
+        return staminaLevel;
+               ^
+  symbol:   variable staminaLevel
+  location: class PlayerStats
+C:\Users\MikeandJoski\Desktop\Hardcore\src\main\java\io\github\mikeandjoski\hardcore\PlayerStats.java:75: error: cannot find symbol
+        this.staminaLevel = staminaLevel;
+            ^
+  symbol: variable staminaLevel
+C:\Users\MikeandJoski\Desktop\Hardcore\src\main\java\io\github\mikeandjoski\hardcore\Hardcore.java:46: error: cannot find symbol
+            StatEffectManager.applyStats(event.getPlayer(), stats);
+            ^
+  symbol:   variable StatEffectManager
+  location: class Hardcore
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+15 errors
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+> Run with --info option to get more log output.
+> Run with --scan to get full insights.
+
+BUILD FAILED in 904ms
